@@ -9,8 +9,6 @@
 #import "AppDelegate.h"
 #import <MapKit/MapKit.h>
 
-// http://maps.google.com/maps?f=d&source=s_d&saddr=euston+station&daddr=air+street&hl=en&geocode=FchBEgMd9vT9_ykhn8M0JBt2SDH3lGPQqsbmFg%3BFVT6EQMd1Ov9_ymjHB0Z1AR2SDFjlguRha5tmA&vps=3&jsv=432b&sll=51.518765,-0.139845&sspn=0.019601,0.093813&vpsrc=0&gl=us&dirflg=r&ttype=now&noexp=0&noal=0&sort=def&mra=atm&ie=UTF8&ui=maps_mini&cad=tm:d
-
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
