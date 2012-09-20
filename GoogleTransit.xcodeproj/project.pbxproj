@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F44E8EF3160B501700DED148 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F44E8EF2160B501700DED148 /* CoreLocation.framework */; };
 		F4F4C2EA160B396F0055EF42 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4F4C2E9160B396F0055EF42 /* UIKit.framework */; };
 		F4F4C2EC160B396F0055EF42 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4F4C2EB160B396F0055EF42 /* Foundation.framework */; };
 		F4F4C2EE160B396F0055EF42 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4F4C2ED160B396F0055EF42 /* CoreGraphics.framework */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F44E8EF2160B501700DED148 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		F4F4C2E5160B396F0055EF42 /* GoogleTransit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleTransit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4F4C2E9160B396F0055EF42 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F4F4C2EB160B396F0055EF42 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -42,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F44E8EF3160B501700DED148 /* CoreLocation.framework in Frameworks */,
 				F4F4C308160B3DBD0055EF42 /* MapKit.framework in Frameworks */,
 				F4F4C2EA160B396F0055EF42 /* UIKit.framework in Frameworks */,
 				F4F4C2EC160B396F0055EF42 /* Foundation.framework in Frameworks */,
@@ -72,6 +75,7 @@
 		F4F4C2E8160B396F0055EF42 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F44E8EF2160B501700DED148 /* CoreLocation.framework */,
 				F4F4C307160B3DBD0055EF42 /* MapKit.framework */,
 				F4F4C2E9160B396F0055EF42 /* UIKit.framework */,
 				F4F4C2EB160B396F0055EF42 /* Foundation.framework */,
@@ -279,6 +283,7 @@
 				F4F4C305160B39700055EF42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
