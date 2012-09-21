@@ -30,7 +30,14 @@
 	
 	self.locationManager = [[CLLocationManager alloc] init];
 	self.locationManager.delegate = self;
-	
+
+    if (launchOptions[UIApplicationLaunchOptionsURLKey]) {
+        double delayInSeconds = 0.3;
+        dispatch_time_t popTime = dispatch_time(DISPATCH_TIME_NOW, delayInSeconds * NSEC_PER_SEC);
+        dispatch_after(popTime, dispatch_get_main_queue(), ^(void){
+            [self application:application openURL:launchOptions[UIApplicationLaunchOptionsURLKey] sourceApplication:nil annotation:nil];
+        });
+    }
     return YES;
 }
 
